@@ -1,10 +1,14 @@
 export const paths = [
   {
     title: "Challange 1",
-    url: "challange1.html",
+    url: "challenge1.html",
   },
   {
     title: "Challange 2",
-    url: "challange2.html",
+    url: "challenge2.html",
+  },
+  {
+    title: "Challange 3",
+    url: "challenge3.html",
   },
 ];
