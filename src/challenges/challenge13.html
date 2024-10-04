@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 13</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        height: 100vh;
+      }
+      .box {
+        height: 150px;
+        width: 150px;
+        background: #000000;
+        /* position: relative; */
+        float: left;
+      }
+
+      .container > *:nth-child(even) {
+        background: #808080;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="position: absolute; bottom: 0; right: 10px">
+      <h2><a style="text-decoration: none" href="/src/index.html">HOME</a></h2>
+    </div>
+    <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+      <div class="box box5"></div>
+    </div>
+  </body>
+</html>
