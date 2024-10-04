@@ -23,4 +23,8 @@ export const paths = [
     title: "Challange 6",
     url: "challenge6.html",
   },
+  {
+    title: "Challange 7",
+    url: "challenge7.html",
+  },
 ];
