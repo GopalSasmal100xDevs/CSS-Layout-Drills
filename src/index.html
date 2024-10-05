@@ -20,13 +20,12 @@
         const link = document.createElement("a");
 
         link.href = `/src/challenges/${route["url"]}`;
+        link.target = "_blank";
         link.textContent = route["title"];
 
         listItem.appendChild(link);
         root.appendChild(listItem);
       });
-      console.log(list);
-      root.appendChild(list);
     </script>
   </body>
 </html>
