@@ -18,12 +18,18 @@
         height: 150px;
         width: 150px;
         background: #000000;
-        /* position: relative; */
-        float: left;
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+      .box1 {
+        top: 0;
+        left: 0;
       }
 
-      .container > *:nth-child(even) {
-        background: #808080;
+      .box2,
+      .box4 {
+        background: #ccc;
       }
     </style>
   </head>
@@ -32,11 +38,15 @@
       <h2><a style="text-decoration: none" href="/src/index.html">HOME</a></h2>
     </div>
     <div class="container">
-      <div class="box box1"></div>
-      <div class="box box2"></div>
-      <div class="box box3"></div>
-      <div class="box box4"></div>
-      <div class="box box5"></div>
+      <div class="box box1">
+        <div class="box box2">
+          <div class="box box3">
+            <div class="box box4">
+              <div class="box box5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
